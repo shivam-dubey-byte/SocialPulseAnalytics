@@ -1,71 +1,74 @@
-# Getting Started with Create React App
+SocialPulse Analytics
+Ever wonder what people really think? This dashboard gives you a live look at public sentiment across the social web.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+What is this?
+SocialPulse Analytics is a React-based dashboard that plugs into the stream of conversations happening on platforms like YouTube, Twitter, and Reddit. Instead of drowning in data, this tool visualizes public opinion and user feedback through a clean, interactive interface.
 
-## Available Scripts
+It's built for anyone—from brand managers to data analysts—who needs to quickly understand how people are reacting to a product, topic, or event without getting bogged down in spreadsheets.
 
-In the project directory, you can run:
+Core Features
+Clean, Dark UI: Easy on the eyes and designed to make the data pop.
 
-### `npm start`
+At-a-Glance Insights: The layout is structured in four clear rows, taking you from a broad overview to the nitty-gritty details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Interactive Charts: Don't just look at the data—play with it. Hover over any chart segment to get more detailed breakdowns.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Fully Responsive: Looks and works great on your desktop, tablet, or phone.
 
-### `npm test`
+Built with React: A modern, component-based architecture that's easy to extend and maintain.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tech Stack
+Frontend: React
 
-### `npm run build`
+Charting: Recharts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Styling: Tailwind CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Get it Running
+Want to run it locally? Just follow these steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Prerequisites
+You'll need Node.js and npm installed.
 
-### `npm run eject`
+npm
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install npm@latest -g
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Installation
+Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git clone https://github.com/shivam-dubey-byte/SocialPulseAnalytics.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Jump into the project folder:
 
-## Learn More
+cd SocialPulseAnalytics
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install the dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm install
 
-### Code Splitting
+Fire it up!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
 
-### Analyzing the Bundle Size
+You should now see it running at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A Quick Tour of the Dashboard
+1. The Big Picture
+The first thing you'll see is a pie chart giving you a quick snapshot of the overall mood: Positive, Negative, or Neutral. It's your 10,000-foot view.
 
-### Making a Progressive Web App
+2. What People Are Saying
+This is where we get into the actual words people are using. You'll see two bar charts:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Top 5 Positive Words: Shows you what's making people happy.
 
-### Advanced Configuration
+Top 5 Negative Words: Instantly reveals common pain points and complaints.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Platform Breakdown
+This bar chart compares how you're doing on YouTube, Twitter, and Reddit side-by-side. It's perfect for seeing which platforms are your strong suits and which ones need more attention.
 
-### Deployment
+4. User Perception Deep Dive
+The final pie chart goes beyond simple sentiment. It shows you why people feel the way they do, with categories like "Confused," "Angry," or "Issues not resolve." This is where you can find really specific, actionable feedback.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# SocialPulseAnalytics
+License
+Distributed under the MIT License. See LICENSE for more information.
