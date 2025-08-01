@@ -39,48 +39,57 @@ Want to run it locally? Just follow these steps.
 ### Prerequisites
 
 You'll need Node.js and npm installed.
+
 * npm
-  ```sh
-  npm install npm@latest -g
-Installation
-Clone the repository:
+    ```sh
+    npm install npm@latest -g
+    ```
 
-Bash
+### Installation
 
-git clone [https://github.com/shivam-dubey-byte/SocialPulseAnalytics.git](https://github.com/shivam-dubey-byte/SocialPulseAnalytics.git)
-Jump into the project folder:
+1.  Clone the repository:
+    ```sh
+    git clone [https://github.com/shivam-dubey-byte/SocialPulseAnalytics.git](https://github.com/shivam-dubey-byte/SocialPulseAnalytics.git)
+    ```
+2.  Jump into the project folder:
+    ```sh
+    cd SocialPulseAnalytics
+    ```
+3.  Install the dependencies:
+    ```sh
+    npm install
+    ```
+4.  Fire it up!
+    ```sh
+    npm start
+    ```
+    You should now see it running at `http://localhost:3000`.
 
-Bash
+---
 
-cd SocialPulseAnalytics
-Install the dependencies:
+## A Quick Tour of the Dashboard
 
-Bash
+### 1. The Big Picture
 
-npm install
-Fire it up!
-
-Bash
-
-npm start
-You should now see it running at http://localhost:3000.
-
-A Quick Tour of the Dashboard
-1. The Big Picture
 The first thing you'll see is a pie chart giving you a quick snapshot of the overall mood: Positive, Negative, or Neutral. It's your 10,000-foot view.
 
-2. What People Are Saying
+### 2. What People Are Saying
+
 This is where we get into the actual words people are using. You'll see two bar charts:
 
-Top 5 Positive Words: Shows you what's making people happy.
+* **Top 5 Positive Words:** Shows you what's making people happy.
+* **Top 5 Negative Words:** Instantly reveals common pain points and complaints.
 
-Top 5 Negative Words: Instantly reveals common pain points and complaints.
+### 3. Platform Breakdown
 
-3. Platform Breakdown
 This bar chart compares how you're doing on YouTube, Twitter, and Reddit side-by-side. It's perfect for seeing which platforms are your strong suits and which ones need more attention.
 
-4. User Perception Deep Dive
-The final pie chart goes beyond simple sentiment. It shows you why people feel the way they do, with categories like "Confused," "Angry," or "Issues not resolve." This is where you can find really specific, actionable feedback.
+### 4. User Perception Deep Dive
 
-License
-Distributed under the MIT License. See LICENSE for more information.
+The final pie chart goes beyond simple sentiment. It shows you *why* people feel the way they do, with categories like "Confused," "Angry," or "Issues not resolve." This is where you can find really specific, actionable feedback.
+
+---
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
